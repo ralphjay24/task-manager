@@ -1,0 +1,36 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "binary_operator_spaces": {
+            "operators": {
+                "=": "align",
+                "=>": "align"
+            }
+        },
+        "array_syntax": {
+            "syntax": "short"
+        },
+        "linebreak_after_opening_tag": true,
+        "not_operator_with_successor_space": true,
+        "ordered_imports": true,
+        "phpdoc_order": true,
+        "phpdoc_indent": true,
+        "phpdoc_to_comment": {
+            "ignored_tags": ["use", "todo"]
+        },
+        "no_empty_phpdoc": true,
+        "no_multiline_whitespace_around_double_arrow": true,
+        "multiline_whitespace_before_semicolons": true,
+        "no_unused_imports": true,
+        "single_quote": true,
+        "standardize_not_equals": true,
+        "yoda_style": false
+    },
+    "exclude": [
+        "bootstrap/cache",
+        "storage",
+        "vendor",
+        "public"
+    ],
+    "notName": ["*.blade.php"]
+}
